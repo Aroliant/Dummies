@@ -1,0 +1,70 @@
+/* 
+* @Author: JacobSamro
+* @Date:   2014-10-06 17:05:53
+* @Last Modified by:   JacobSamro
+* @Last Modified time: 2014-12-24 19:11:25
+*/
+
+
+body{
+	margin: 0;
+}
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize:none;
+}
+.mainHolder{
+	width: 1040px;
+	margin: 0 auto;
+	background: #0D8CAC;
+	padding-bottom: 10px;
+}
+.mainHolder >section{
+	margin: 10px;
+}
+header{
+	height: 123px;
+	background: #3F4046 url('logo.png');
+	background-repeat: no-repeat;
+}
+header > h1{
+	margin: 0;
+	padding: 49px 0px 0px 390px;
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
+.inline{
+	display: inline-block;
+}
+.tbox{
+	border-radius: 4px;
+	border: 1px solid rgb(226, 225, 225);
+	font-family: sans-serif;
+	padding: 10px;
+	font-size: 14px;
+	height: 250px;
+	width: 434px;
+}
+.toOption{
+	width: 100px;
+	height: 250px;
+	top: -20px;
+	position: relative;
+}
+.toOption > button{
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 9px 20px;
+	color: #535353;
+	border: 0 rgba(0,0,0,0);
+	background-color: #E4E4E4;
+	text-decoration: none;
+	border-radius: 2px;
+	width: 96px;
+	margin: 1px 1px;
+}

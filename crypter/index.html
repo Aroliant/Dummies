@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Crypter - Tools</title>
+<meta charset="UTF-8"/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<link rel="stylesheet" type="text/css" href="assets/cry-style.css">
+<script type="text/javascript" src="assets/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="assets/crypter.js"></script>
+</head>
+<body>
+	<div class="mainHolder">
+		<header>
+		<h1>Tool for Encryption</h1>
+		</header>
+		<section>
+		<form name="cryForm">
+			<textarea class="tbox inline" placeHolder='Enter your data' name="toCrpyt"></textarea>
+			<div class="toOption inline">
+				<button onclick="crypt('md2');" type="button">md2</button>
+				<button  onclick="crypt('md4');" type="button">md4</button>
+				<button  onclick="crypt('md5');" type="button">md5</button>
+				<button  onclick="crypt('crc32');" type="button">crc32</button>
+				<button  onclick="crypt('sha1');" type="button">sha1</button>
+				<button  onclick="crypt('sha256');" type="button">sha256</button>
+				<button  onclick="crypt('sha512');" type="button">sha512</button>
+			</div>
+			<textarea class="tbox inline" name="cryptedData"></textarea>
+		</form>
+		</section>
+	</div>
+</body>
+</html>
